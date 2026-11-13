@@ -17,7 +17,7 @@ export const HEARD_FROM = [
 
 /** Question 1. "Other amount" asks the guest to type the figure. */
 export const BUDGET_OTHER = "Other amount";
-export const BUDGETS = ["$200k – $350k", "$350k – $500k", "$11M and above", BUDGET_OTHER] as const;
+export const BUDGETS = ["$200k – $350k", "$350k – $500k", "$1M and above", BUDGET_OTHER] as const;
 
 /** Question 2: off-plan or completed, instalments or one payment. */
 export const BUYING = [
