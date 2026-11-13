@@ -2597,7 +2597,6 @@ html:not(.js) .scroll-cue-wrap {
   .nav .btn {
     min-height: 38px;
   }
-  .hero__kicker,
   .hero__sub,
   .hero__action .micro--quiet,
   .hero__row,
@@ -3048,5 +3047,14 @@ html.has-cursor .rsvp :is(a, button, label, .choice, .choice input) {
   }
   .nav .btn {
     min-height: 44px;
+  }
+}
+/* Hero line: venue and dates on their own lines on phones. */
+@media (max-width: 640px) {
+  .hero__kicker-part {
+    display: block;
+  }
+  .hero__kicker-sep {
+    display: none;
   }
 }

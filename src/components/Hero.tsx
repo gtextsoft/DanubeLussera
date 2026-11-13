@@ -148,7 +148,11 @@ export default function Hero() {
               transition={{ duration: 1, ease: EASE, delay: 0.1 }}
             >
               <span className="hero__kicker-rule" />
-              Danube Properties in {EVENT.city}, {EVENT.dateLabel}
+              <span className="hero__kicker-text">
+                <span className="hero__kicker-part">{EVENT.venue}, {EVENT.city}</span>
+                <span className="hero__kicker-sep"> · </span>
+                <span className="hero__kicker-part">{EVENT.dateLabel}</span>
+              </span>
             </motion.p>
 
             <SplitHeadline show={show} xs={reduce ? undefined : [line1X, line2X]} />
