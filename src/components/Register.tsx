@@ -391,7 +391,7 @@ export default function Register() {
     <section className="register" id="register" aria-labelledby="register-heading">
       <div className="container register__grid">
         <aside className="register__aside">
-          <p className="eyebrow">Free entry, registered guests only</p>
+          <p className="eyebrow">Entry is entirely free. Registration is compulsory.</p>
           <RevealText id="register-heading" className="heading" lines={["Reserve", "your seat"]} />
           <p className="register__lead serif-line">
             Your details and three quick questions. Event updates and directions are shared in the roadshow WhatsApp
@@ -523,7 +523,7 @@ export default function Register() {
                         <h2 id="rsvp-h-details" ref={headingRef("details")} tabIndex={-1} className="rsvp__q">
                           Reserve your seat
                         </h2>
-                        <p className="rsvp__hint">Free entry. About {EVENT.dailyCapacity} seats a day, registered guests first.</p>
+                        <p className="rsvp__hint">Entry is entirely free. Registration is compulsory.</p>
                       </div>
                       <Field name="fullName" label="Full name" error={errors.fullName} full>
                         <input

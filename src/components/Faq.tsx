@@ -1,10 +1,10 @@
-import { BROKER, EVENT, dataHolders } from "@/config/event";
+import { BROKER, dataHolders } from "@/config/event";
 import RevealText from "./motion/RevealText";
 
 const FAQS = [
   {
     q: "Is the roadshow really free?",
-    a: `Yes. Entry is free, but you need to register; capacity is planned for about ${EVENT.dailyCapacity} guests each day and registered guests are admitted first.`,
+    a: "Yes. Entry is entirely free. Registration is compulsory, so please register before you come.",
   },
   {
     q: "How does my money get to Dubai safely?",

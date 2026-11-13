@@ -7,7 +7,7 @@ export default function FinalCta() {
       <div className="container">
         <RevealText id="final-heading" className="display final__title" lines={["Meet Danube in Lagos.", "Own in Dubai."]} />
         <p className="final__sub serif-line">
-          {EVENT.dateLabel}. Free entry for registered guests.
+          {EVENT.dateLabel}. Entry is entirely free. Registration is compulsory.
         </p>
         <a className="btn btn--solid" href="#register" data-magnetic>
           Reserve my seat

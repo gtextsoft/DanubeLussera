@@ -6,7 +6,7 @@
 export const EVENT = {
   title: "Danube Dubai Roadshow, Lagos",
   city: "Lagos",
-  venue: "Venue to be confirmed",
+  venue: "The George Hotel, Ikoyi",
   dateLabel: "Sat 12 & Sun 13 December 2026",
   shortDate: "12–13 December",
   days: [

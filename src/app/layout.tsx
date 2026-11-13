@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Meet Danube Properties in person. See Shahrukhz Residences, Greenz and Bayz 101, get floor plans and the 1% monthly payment plan, and register for your seat.",
   openGraph: {
     title: EVENT.title,
-    description: "Three Danube addresses, one event. Register for your seat.",
+    description: "Danube’s newest Dubai addresses, one event. Register for your seat.",
     images: [{ url: "/media/hero-poster.jpg", width: 1600, height: 900 }],
     type: "website",
   },

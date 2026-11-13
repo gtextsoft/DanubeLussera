@@ -159,7 +159,7 @@ export default function Hero() {
               animate={show ? { opacity: 1, y: 0 } : undefined}
               transition={{ duration: 1.1, ease: EASE, delay: 1.05 }}
             >
-              Danube’s sales team brings three of its newest Dubai addresses to Lagos for one weekend. See the floor
+              Danube’s sales team brings its newest Dubai addresses to Lagos for one weekend. See the floor
               plans, get your payment plan in dollars, and reserve before anyone else.
             </motion.p>
 
@@ -169,13 +169,13 @@ export default function Hero() {
               animate={show ? { opacity: 1, y: 0 } : undefined}
               transition={{ duration: 1.1, ease: EASE, delay: 1.2 }}
             >
-              <p className="micro">Free entry. About {EVENT.dailyCapacity} seats a day, registered guests first.</p>
+              <p className="micro">Entry is entirely free. Registration is compulsory.</p>
               <div className="hero__ctas">
                 <a className="btn btn--solid" href="#register" data-magnetic>
                   Reserve my seat
                 </a>
                 <a className="btn" href="#projects" data-magnetic>
-                  See the three projects
+                  See the projects
                 </a>
               </div>
               <p className="micro micro--quiet">Takes under a minute. No payment, no obligation to buy.</p>

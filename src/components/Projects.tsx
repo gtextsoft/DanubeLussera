@@ -220,7 +220,7 @@ export default function Projects() {
     <section className="projects" id="projects" aria-labelledby="projects-heading">
       <div className="container projects__intro">
         <div>
-          <p className="eyebrow">The three projects on show</p>
+          <p className="eyebrow">The projects on show</p>
           <RevealText id="projects-heading" className="heading" lines={["Your Dubai home,", "from 1% a month"]} />
         </div>
         <div className="projects__frame">
