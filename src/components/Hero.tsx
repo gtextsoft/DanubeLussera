@@ -148,14 +148,19 @@ export default function Hero() {
               transition={{ duration: 1, ease: EASE, delay: 0.1 }}
             >
               <span className="hero__kicker-rule" />
-              <span className="hero__kicker-text">
-                <span className="hero__kicker-part">{EVENT.venue}, {EVENT.city}</span>
-                <span className="hero__kicker-sep"> · </span>
-                <span className="hero__kicker-part">{EVENT.dateLabel}</span>
-              </span>
+              Danube Properties in {EVENT.city}, {EVENT.dateLabel}
             </motion.p>
 
             <SplitHeadline show={show} xs={reduce ? undefined : [line1X, line2X]} />
+
+            <motion.p
+              className="hero__venue"
+              initial={{ opacity: 0, y: 12 }}
+              animate={show ? { opacity: 1, y: 0 } : undefined}
+              transition={{ duration: 1, ease: EASE, delay: 0.9 }}
+            >
+              {EVENT.venue}, {EVENT.city}
+            </motion.p>
 
             <motion.p
               className="hero__sub"
